@@ -1,0 +1,465 @@
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606;
+}
+@media screen and (max-width: 1200px) {
+    .about-me-container{
+        padding: 70px;
+    }
+    .about-me-img{
+        width: 90%;
+    }
+    .about-me-img img{
+        width: 60%;
+    }
+    .about-me-heading{
+        margin: 0;
+    }
+    .about-me p{
+        padding-right: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .top{
+        width: 40px;
+        height: 40px;
+    }
+    .navbar{
+        grid-template-columns: 1fr 3fr 1fr;
+    }
+    .top-container{    
+        padding: 10px 1%;
+        grid-gap:15px
+    }
+    .navbar>ul li a{
+        font-size: 14px;
+    }
+    .navbar>ul li a:hover{
+        font-size: 16px;
+    }
+    .nav-img span{
+        font-size: 12px;
+    }
+    .nav-img{
+        padding-left: 0;
+    }
+    .btn{
+        width: 70%;
+        margin: 0 10%;
+        font-size: 12px;
+        padding: 7px 13px;
+    }
+    .btn:hover{
+        font-size: 13px;
+    }
+    .main-img{
+        padding: 20px 0;
+    }
+    .main-img img{
+        width: 50%;
+    }
+    .header-right{
+        padding: 20px 0;
+    }
+    .welcome-world{
+        font-size: 12px;
+        padding-top: 0;
+    }
+    .header-right>h1{
+        font-size: 38px;
+        margin-bottom: 7px;
+    }
+    .single-a{
+        font-size: 14px;
+    }
+    .developer,.ui,.coder{
+        font-size: 14px; 
+    }
+    .head-content{
+        padding-top: 15px;
+        padding-right: 50px;
+        font-size: 13px;
+    }
+    .btn-dload{
+        margin-top: 25px;
+        padding: 12px 15px;
+        font-size: 11px;
+    }
+    .btn-dload:hover{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .about-me-container{
+        grid-gap:25px;    
+    }
+    .about-me-img{
+        width: 100%;
+    }
+    .about-me-heading{
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .about-me h2{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 5px 0;
+    }
+    .about-me p{
+        padding-top: 8px;
+        padding-right: 30px;
+        font-size: 13px;
+    }
+    .social{
+        width: 28%;
+    }
+    .fb,.ig,.ld{
+        clip-path: circle(40% at 50% 50%);
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+
+    .top{
+        width: 35px;
+        height: 35px;
+        font-size: 10px;
+    }
+    .navbar>ul li a{
+        font-size: 12px;
+    }
+    .navbar>ul li a:hover{
+        font-size: 14px;
+    }
+    .nav-img span{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 5px 10px;
+        font-size: 11px;
+    }
+    .btn:hover{
+        font-size: 12px;
+    }
+    .main-img{
+        padding: 10px 0;
+    }
+    .main-img img{
+        width: 50%;
+    }
+    .header-right{
+        padding: 10px 0;
+    }
+    .welcome-world{
+        font-size: 10px;
+        padding-top: 0;
+    }
+    .header-right>h1{
+        font-size: 32px;
+        margin-bottom: 7px;
+    }
+    .single-a{
+        font-size: 11px;
+    }
+    .developer,.ui,.coder{
+        font-size: 11px; 
+    }
+    .head-content{
+        padding-top: 12px;
+        padding-right: 40px;
+        font-size: 12px;
+    }
+    .btn-dload{
+        margin-top: 18px;
+        padding: 10px 12px;
+        font-size: 9px;
+    }
+    .btn-dload:hover{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .about-me-container{
+        padding: 50px 70px;
+        grid-gap:15px;    
+    }
+    .about-me-img{
+        width: 100%;
+    }
+    .about-me-img img{
+        width: 50%;
+    }
+    .about-me-heading{
+        font-size: 25px;
+    }
+    .about-me h2{
+        font-size: 18px;
+    }
+    .about-me p{
+        padding-top: 8px;
+        padding-right: 10px;
+        font-size: 11px;
+    }
+    .social{
+        width: 32%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .top{
+        width: 30px;
+        height: 30px;
+        font-size: 9px;
+    }
+    .top-container{    
+        padding-bottom: 30px;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 92%, 0 100%);
+    }    
+
+    .nav-img>img{
+        border: 1px solid white;
+    }
+    
+    .navbar>ul li a{
+        font-size: 8px;
+    }
+    .navbar>ul li a:hover{
+        font-size: 9px;
+    }
+    .nav-img span{
+        font-size: 7px;
+    }
+    .btn{
+        padding: 5px 7px;
+        font-size: 8px;
+    }
+    .btn:hover{
+        font-size: 10px;
+    }
+    .main-img{
+        padding: 0;
+    }
+    .main-img img{
+        width: 60%;
+    }
+    .header-right{
+        padding: 0;
+    }
+    .welcome-world{
+        font-size: 8px;
+        padding-top: 5px;
+    }
+    .header-right>h1{
+        font-size: 24px;
+        margin-bottom: 0;
+    }
+    .single-a{
+        font-size: 8px;
+    }
+    .developer,.ui,.coder{
+        font-size: 8px; 
+    }
+    .head-content{
+        padding-top: 5px;
+        padding-right: 25px;
+        font-size: 8px;
+    }
+    .btn-dload{
+        margin-top: 14px;
+        padding: 7px 10px;
+        font-size: 7px;
+    }
+    .btn-dload:hover{
+        font-size: 8px;
+        font-weight: 500;
+    }
+    .about-me-container{
+        padding: 50px;
+        grid-gap:10px;    
+    }
+    .about-me-heading{
+        font-size: 20px;
+    }
+    .about-me h2{
+        font-size: 13px;
+    }
+    .about-me p{
+        padding-top: 5px;
+        padding-right: 10;
+        font-size: 7px;
+    }
+    .social{
+        width: 35%;
+    }
+    .fb,.ig,.ld{
+        clip-path: circle(35% at 50% 50%);
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+  
+    .top{
+        width: 25px;
+        height: 25px;
+        font-size: 8px;
+    }
+    .top-container{    
+        padding-bottom: 30px;
+        grid-gap:0;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 95%, 0 100%);
+    }
+    .navbar{
+        grid-template-columns: 1fr 1fr;
+        padding: 0;
+    }
+    .navbar>ul, .btn-div{
+        display: none;
+    }
+    .nav-img{
+        display: none;
+    }
+    .nav-img1{
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-img1>img{
+        width: 50%;
+        border: 2px solid white;
+        border-radius: 50%;
+        justify-self: end;
+        align-self: center;
+    }   
+    .nav-img1 span{
+        font-size: 14px;
+        padding-left: 5px;
+        color: var(--light);
+        justify-self: start;
+        align-self: center;
+    }
+    .menu{
+        display: flex;
+        width: 28%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 25%;
+        padding: 10px 0;
+        border: 1px solid var(--ternary);
+        border-radius: 5px;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .menu i{
+        color: var(--light);
+        font-size: 24px;
+
+    }
+    .header{
+        grid-template-columns: 1fr;
+        grid-gap:5px;
+    }
+    .main-img{
+        padding: 20px 0;
+        grid-template-columns: 1fr;
+    }
+    .main-img img{
+        width: 20%;
+        margin-top: 10px;
+    }
+
+    .header-right{
+        padding: 0 8% 20px 8%;
+    }
+    .welcome-world1{
+        display: block;
+        font-weight: 500;
+        font-size: 14px;
+        padding-top: 0;
+        text-align: center;
+        margin: 0;
+    }
+    .welcome-world{
+        display: none;
+    }
+    .header-right>h1{
+        font-size: 23px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .sub-head{
+        text-align: center;
+    }
+    .single-a{
+        font-size: 9px;
+        font-weight: 500;
+        padding-right: 5px;
+    }
+    .developer,.ui,.coder{
+        font-size: 9px;
+        font-weight: 500; 
+    }
+    .head-content{
+        padding-top: 10px;
+        padding-right: 0px;
+        font-size: 9px;
+    }
+    .btn-dload{
+        margin-top: 20px;
+        padding: 10px 12px;
+        font-size: 7px;
+    }
+    .btn-dload:hover{
+        font-size: 8px;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    .about-me-container{
+        padding: 50px;
+        grid-template-columns: 1fr;
+        grid-gap:15px;   
+    }
+    .about-me-img{
+        width: 70%;
+    }
+    .about-me-img img{
+        width: 50%;
+    }
+    .about-me-heading{
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .about-me h2{
+        font-size: 13px;
+        font-weight: 600;
+        text-align: center;
+    }
+    .about-me p{
+        padding-right: 0px;
+        font-size: 9px;
+    }
+    .social{
+        width: 30%;
+    }
+    .fb,.ig,.ld{
+        clip-path: circle(34% at 50% 50%);
+        padding: 7px;
+        font-size: 7px;
+    }
+
+}
