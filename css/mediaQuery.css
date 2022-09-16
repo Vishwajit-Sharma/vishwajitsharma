@@ -22,6 +22,92 @@
     .about-me p{
         padding-right: 50px;
     }
+    .resume-outer{
+        padding: 70px 80px 30px 80px;
+    }
+    .edu, .skill, .exp, .cert{
+        font-size: 20px;
+    }
+
+    .ssc,.hsc,.ug, .edu-font{
+        font-size: 20px;
+    }
+    .ssc-con h3, .hsc-con h3, .ug-con h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .ssc-con h2, .hsc-con h2, .ug-con h2{
+        font-size: 21px;
+        font-weight: 700;
+        margin: 5px 0;
+    }
+    .progress-bar-container {
+        margin-bottom: 17px;
+    }
+    .progress-bar-container h2{
+        margin-bottom: 3px;
+        font-size: 13.5px;
+    }
+    .progress-bar {
+        height: 7px;
+        margin-top: 6px;
+        border-radius: 7px;
+    }
+    .exp1 .exp-font{
+        left: 3%;
+        top: 43%;
+        font-size: x-large;
+    }
+    .exp2 .exp-font{
+        left: 3.5%;
+        top: 43%;
+        font-size: x-large;
+    }
+    .exp3 .exp-font{
+        left: 43%;
+        top: 10px;
+        font-size: large;
+    }
+    .exp1 h2{
+        font-size: 22px;
+    } 
+    .exp1 h3{
+        font-size: 18px;
+    } 
+    .exp1 p{
+        font-size: 15px;
+    }
+    .exp2 h3{
+        font-size: 18px;
+    } 
+    .exp2 h4{
+        font-size: 15px;
+    } 
+    .exp2 p{
+        font-size: 12px;
+    }
+    .exp3 h4{
+        font-size: 15px;
+    } 
+    .exp3 h5{
+        font-size: 11px;
+    } 
+    .exp3 p{
+        font-size: 8px;
+    }
+    .cert-main .cert-font{
+        font-size: x-large;
+     }
+     .cert-main h2{
+        font-size: 23px;
+     } 
+     .cert-main h4 {
+        font-size: 18px;
+        color: var(--ternary);
+     }
+     .cert-main p{
+        font-size: 15px;
+     }
 
 }
 
@@ -123,6 +209,145 @@
         clip-path: circle(40% at 50% 50%);
         font-size: 15px;
     }
+    .portfolio{
+        padding: 40px 3% 40px 3%;
+    }
+    .pf-outer{
+        grid-template-columns: 1fr 1fr;
+        /* grid-template-rows: auto auto; */
+        padding-bottom: 10px;
+    }
+    .freelancer-div{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 85%, 0 100%);
+        padding: 40px 0 80px 0;
+    }
+    .freelancer-div h1{
+        font-size: 26px;
+    }
+    .freelancer-div h3{
+        font-size: 18px;
+    }
+    .fl-button-div{
+        width: 80%;
+        margin-left: 10%;
+        padding: 30px 0;
+    }
+    .fl-btn1, .fl-btn2{
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .resume-outer{
+        padding: 50px 50px 30px 50px;
+    }
+    .edu, .skill, .exp, .cert{
+        padding: 25px 0;
+        font-size: 17px;
+    }
+    .ssc,.hsc,.ug, .edu-font{
+        font-size: 18px;
+    }
+    .ssc-con h3, .hsc-con h3, .ug-con h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .ssc-con h2, .hsc-con h2, .ug-con h2{
+        font-size: 18px;
+        font-weight: 700;
+        margin: 5px 0;
+    }
+    .tech>h3, .soft>h3{
+        font-size: 16px;
+    }
+    .progress-bar-container {
+        margin-bottom: 15px;
+    }
+    .progress-bar-container h2{
+        margin-bottom: 3px;
+        font-size: 12px;
+    }
+    .progress-bar {
+        height: 5px;
+        margin-top: 4px;
+        border-radius: 5px;
+    }
+    .exp1 .exp-font{
+        font-size: large;
+    }
+    .exp2 .exp-font{
+        font-size: large;
+    }
+    .exp3 .exp-font{
+        font-size: medium;
+    }
+    .exp1 h2{
+        font-size: 20px;
+    } 
+    .exp1 h3{
+        font-size: 16px;
+    } 
+    .exp1 p{
+        font-size: 13px;
+    }
+    .exp2 h3{
+        font-size: 16px;
+    } 
+    .exp2 h4{
+        font-size: 13px;
+    } 
+    .exp2 p{
+        font-size: 11px;
+    }
+    .exp3 h4{
+        font-size: 13px;
+    } 
+    .exp3 h5{
+        font-size: 9px;
+    } 
+    .exp3 p{
+        font-size: 7px;
+    }
+    .cert-main .cert-font{
+        font-size: large;
+     }
+     .cert-main h2{
+        font-size: 21px;
+     } 
+     .cert-main h4 {
+        font-size: 17px;
+        color: var(--ternary);
+     }
+     .cert-main p{
+        font-size: 14px;
+     }
+     .contact{
+        padding: 15px 5%;
+    }
+    .con-font{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .social-con{
+        padding: 20px 0;
+    }
+    .social-con h4{
+        margin-top: 15px;
+    }   
+    .social-con .con-font{
+        font-size: 30px;
+    }
+    .form{
+        padding: 10px 10% 0 10%;
+    }
+    .form-btn{
+        width: 30%;
+        margin-left: 35%;
+        font-size: 16px;
+    }
+    .copyright{
+        padding: 20px;
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -209,6 +434,112 @@
     }
     .social{
         width: 32%;
+    }
+    .portfolio-heading, .resume-heading, .contact-heading{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .portfolio h2, .resume-outer h2, .contact-div h2{
+        font-size: 21px;
+        font-weight: 600;
+    }
+
+    .font-div{
+        width: 20%;
+        padding: 8px 0;
+        font-size: 25px;
+        left: 37%;
+        top: -28px;
+    }
+    .pf h3{
+        margin-top: 35px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .pf p{
+        font-size: 15px;
+    }
+    .freelancer-div{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 90%, 0 100%);
+        padding: 40px 0 70px 0;
+    }
+    .freelancer-div h1{
+        font-size: 22px;
+    }
+    .freelancer-div h3{
+        font-size: 15px;
+    }
+    .fl-btn1, .fl-btn2{
+        padding: 10px 20px;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .resume-outer{
+        padding: 50px 50px 30px 50px;
+    }
+    .resume-main{
+        grid-template-columns: 1fr;
+        grid-gap:50px;
+    }
+    .edu, .skill, .exp, .cert{
+        padding: 25px 0;
+        font-size: 20px;
+    }
+    .ssc,.hsc,.ug, .edu-font{
+        font-size: 19px;
+    }
+    .tech>h3, .soft>h3{
+        font-size: 18px;
+    }
+    .progress-bar-container {
+        margin-bottom: 17px;
+    }
+    .progress-bar-container h2{
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    .progress-bar {
+        height: 5px;
+        margin-top: 4px;
+        border-radius: 5px;
+    }
+    .contact-div{
+        padding: 40px 5% 40px 5%;
+    }
+    .contact{
+        padding: 15px 2%;
+    }
+    .mob, .mail{
+        padding: 15px 0;
+    }
+    .social-con{
+        padding: 25px 0;
+    }
+    .con-font{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .social-con h4{
+        margin-top: 10px;
+    }   
+    .social-con .con-font{
+        font-size: 25px;
+    }
+    .form{
+        padding: 10px 6% 0 6%;
+    }
+    .form input, .form textarea{
+        margin: 7px;
+        padding: 7px;
+    }
+    .form-btn{
+        width: 30%;
+        margin-left: 35%;
+        font-size: 14px;
+    }
+    .copyright{
+        padding: 15px;
+        font-size: 13px;
     }
 }
 
@@ -302,6 +633,192 @@
     .fb,.ig,.ld{
         clip-path: circle(35% at 50% 50%);
         font-size: 10px;
+    }
+    .portfolio{
+        padding-top: 25px;
+    }
+    .portfolio-heading, .resume-heading, .contact-heading{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .portfolio h2, .resume-outer h2, .contact-div h2{
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .font-div{
+        width: 20%;
+        padding: 8px 0;
+        font-size: 18px;
+        top: -21px;
+    }
+    .pf h3{
+        margin-top: 25px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .pf p{
+        font-size: 9px;
+    }
+    .freelancer-div{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 90%, 0 100%);
+        padding: 20px 0 40px 0;
+    }
+    .freelancer-div h1{
+        font-size: 16px;
+    }
+    .freelancer-div h3{
+        font-size: 11px;
+    }
+    .fl-button-div{
+        padding: 20px 0;
+    }
+    .fl-btn1, .fl-btn2{
+        padding: 7px 15px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .resume-outer{
+        padding: 40px 7% 30px 7%;
+    }
+    .resume-main{
+        padding: 15px 1%;
+    }
+    .edu, .skill, .exp, .cert{
+        padding: 20px 0;
+        font-size: 17px;
+    }
+    .ssc,.hsc,.ug, .edu-font{
+        font-size: 17px;
+    }
+    .ssc-con h3, .hsc-con h3, .ug-con h3{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .ssc-con h2, .hsc-con h2, .ug-con h2{
+        font-size: 16px;
+        font-weight: 700;
+        margin: 5px 0;
+    }
+    .ssc-con p, .hsc-con p, .ug-con p{
+        font-size: 9px;
+    }
+    .skill-content{
+        column-gap: 12px;
+    }
+    .tech, .soft{
+        padding: 7px 10px;
+    }
+    .tech>h3, .soft>h3{
+        font-size: 12px;
+    }
+    .progress-bar-container {
+        margin-bottom: 16px;
+    }
+    .progress-bar-container h2{
+        margin-bottom: 3px;
+        font-size: 8px;
+        letter-spacing: 2px;
+    }
+    .exp3{
+        padding-top: 30px;
+    }
+    .exp1 .exp-font{
+        font-size: medium;
+    }
+    .exp2 .exp-font{
+        font-size: medium;
+    }
+    .exp3 .exp-font{
+        font-size: small;
+    }
+
+    .exp1 h2{
+        font-size: 18px;
+    } 
+    .exp1 h3{
+        font-size: 14px;
+    } 
+    .exp1 p{
+        font-size: 11px;
+    }
+    .exp2 h3{
+        font-size: 14px;
+    } 
+    .exp2 h4{
+        font-size: 11px;
+    } 
+    .exp2 p{
+        font-size: 9px;
+    }
+    .exp3 h4{
+        font-size: 11px;
+    } 
+    .exp3 h5{
+        font-size: 8px;
+    } 
+    .exp3 p{
+        font-size: 6px;
+    }
+    .cert-main .cert-font{
+        font-size: medium;
+     }
+     .cert-main h2{
+        font-size: 18px;
+     } 
+     .cert-main h4 {
+        font-size: 14px;
+     }
+     .cert-main p{
+        font-size: 11px;
+     }
+    .contact{
+        padding: 10px 1%;
+    }
+    .contact-div{
+        padding-bottom: 25px;
+    }
+    .mob, .mail{
+        padding: 10px 0;
+    }
+    .social-con{
+        padding: 20px 0;
+    }
+    .con-font{
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .contact h4{
+        font-size: 13px;
+    } 
+    .contact p{
+        margin-top: -10px;
+    }
+    .contact small{
+        font-size: 10px;
+    }
+    .social-con h4{
+        margin-top: 5px;
+    }   
+    .social-con .con-font{
+        font-size: 17px;
+    }
+    .form{
+        padding: 7px 2.5% 0 2.5%;
+    }
+    .form input, .form textarea{
+        margin: 5px;
+        padding: 5px;
+    }
+    .form-btn{
+        width: 36%;
+        margin-left: 32%;
+        font-size: 11px;
+        margin-top: 15px;
+    }
+    .copyright{
+        padding: 10px;
+        font-size: 11px;
     }
     
 }
@@ -461,5 +978,227 @@
         padding: 7px;
         font-size: 7px;
     }
+    .portfolio{
+        padding: 25px 30px;
+    }
 
+    .portfolio-heading, .resume-heading, .contact-heading{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .portfolio h2, .resume-outer h2, .contact-div h2{
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .pf-outer{
+        grid-template-columns: 1fr;
+        /* grid-template-rows: auto; */
+        padding-bottom: 20px;
+    }
+    .font-div{
+        width: 20%;
+        padding: 10px 0;
+        font-size: 17px;
+        left: 37%;
+        top: -25px;
+    }
+    .pf h3{
+        margin-top: 35px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .pf p{
+        font-size: 11px;
+    }
+    .freelancer-div{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 93%, 0 100%);
+        padding: 15px 0 30px 0;
+    }
+    .freelancer-div h1{
+        font-size: 14px;
+    }
+    .freelancer-div h3{
+        font-size: 10px;
+    }
+    .fl-button-div{
+        padding: 10px 0;
+    }
+    .fl-btn1, .fl-btn2{
+        padding: 5px 10px;
+        font-size: 7px;
+        font-weight: 500;
+    }
+    .fl-btn2{
+        border: 1px solid var(--primary);
+    }
+    .resume-outer{
+        padding: 30px 8% 30px 8%;
+    }
+    .resume-main{
+        padding: 15px 1%;
+    }
+    .edu, .skill, .exp, .cert{
+        padding: 15px 0;
+        font-size: 13px;
+    }
+    .ssc,.hsc,.ug, .edu-font{
+        font-size: 14px;
+    }
+    .ssc-con h3, .hsc-con h3, .ug-con h3{
+        font-size: 11px;
+    }
+    .ssc-con h2, .hsc-con h2, .ug-con h2{
+        font-size: 13px;
+    }
+    .ssc-con p, .hsc-con p, .ug-con p{
+        font-size: 7px;
+    }
+    .skill-content{
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .tech>h3, .soft>h3{
+        font-size: 12px;
+    }
+    .progress-bar-container {
+        margin-bottom: 12px;
+    }
+    .progress-bar-container h2{
+        margin-bottom: 3px;
+        font-size: 6px;
+        letter-spacing: 2px;
+    }
+    .progress-bar {
+        width: 100%;
+        height: 4px;
+        border-radius: 4px;
+    }
+    .exp-content{
+        grid-template-columns: 1fr;
+        grid-gap:15px;
+    }
+    .exp1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .exp2{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .exp3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .exp1 .exp-font, .exp2 .exp-font, .exp3 .exp-font{
+        left: 3%;
+        top: 43%;
+        font-size: small;
+    }
+    .exp1, .exp2, .exp3{
+        padding: 10px 2% 10px 8%;
+    }
+    .exp1 h2{
+        font-size: 13px;
+    } 
+    .exp1 h3{
+        font-size: 9px;
+    } 
+    .exp1 p{
+        font-size: 7px;
+    }
+    .exp2 h3{
+        font-size: 13px;
+    } 
+    .exp2 h4{
+        font-size: 9px;
+    } 
+    .exp2 p{
+        font-size: 7px;
+    }
+    .exp3 h4{
+        font-size: 13px;
+    } 
+    .exp3 h5{
+        font-size: 9px;
+    } 
+    .exp3 p{
+        font-size: 7px;
+    }
+    .cert-main .cert-font{
+        font-size: small;
+     }
+     .cert-main h2{
+        font-size: 13px;
+     } 
+     .cert-main h4 {
+        font-size: 10px;
+     }
+     .cert-main p{
+        font-size: 7px;
+     }
+     .contact-div{
+        padding: 30px 6% 15px 6%;
+     }
+     .contact{
+        padding: 5px 1%;
+    }
+    .mob, .mail{
+        padding: 5px 0;
+    }
+    .social-con{
+        padding: 0px 0;
+    }
+    .con-font{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    .contact h4{
+        font-size: 9px;
+    } 
+    .contact p{
+        margin-top: -12px;
+    }
+    .contact small{
+        font-size: 5px;
+    }
+    .social-con h4{
+        margin-top: 0px;
+    }   
+    .social-con .con-font{
+        font-size: 12px;
+    }
+    .form{
+        grid-template-columns: 1fr;
+        padding: 7px 7% 0 7%;
+    }
+    .form input:nth-of-type(3){
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .form input:nth-of-type(4){
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .form textarea{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .form input, .form textarea{
+        margin: 5px;
+        padding: 5px;
+        border-radius: 3px;
+    }
+    .form input:focus, .form textarea:focus{
+        border: 1px solid var(--primary);
+    }
+    .form-btn{
+        width: 36%;
+        margin-left: 32%;
+        font-size: 7px;
+        margin-top: 10px;
+    }
+    .copyright{
+        padding: 5px;
+        font-size: 7px;
+    }
 }

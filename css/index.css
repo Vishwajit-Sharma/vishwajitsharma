@@ -14,7 +14,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    width: 100%;
 }
 .wrapper{
     width: 100%;
@@ -31,7 +30,7 @@ body{
     align-items: center;
     position: fixed;
     bottom: 30px;
-    right: 30px;
+    right: 25px;
     z-index: 999;
     cursor: pointer;
     color: var(--dark);
@@ -245,7 +244,6 @@ body{
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     grid-gap:15px;
-    grid-template-rows: auto auto;
   
 }
 .about-me-img{
@@ -304,7 +302,7 @@ body{
 .portfolio{
     background-color: var(--light);
     margin: 0;
-    padding: 40px 5% 0 5%;
+    padding: 40px 5% 50px 5%;
     box-shadow: 0 8px 30px 30px gainsboro;
     width: 100%;
 }
@@ -321,7 +319,7 @@ body{
     padding: 50px 10px 0 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    /* grid-template-rows: auto auto auto; */
     column-gap:20px;
     row-gap: 75px;
 }
@@ -432,7 +430,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 2.5fr;
     grid-gap:40px;
-    grid-template-rows: auto auto;
+    /* grid-template-rows: auto auto; */
 }
 .resume-topic{
     display: grid;
@@ -469,8 +467,6 @@ body{
     margin: 0;
     width: 100%;
     height: 100%;
-}
-.edu-content{
     display: grid;
     grid-template-columns: 1fr;
     /* grid-template-rows: auto; */
@@ -493,6 +489,7 @@ body{
 .ssc-con, .hsc-con, .ug-con{
     padding-top: 20px;
     padding-bottom: 5px;
+    padding: 20px 10px 5px 10px;
 }
 .ssc-con h3, .hsc-con h3, .ug-con h3{
     text-align: center;
@@ -768,17 +765,13 @@ body{
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
+
 .cert-main{
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0;
     background-color: var(--light);
     clip-path: polygon(25% 0, 100% 0, 100% 100%, 25% 100%, 0 50%);
-    /* box-shadow: 0 -5px 10px 0px var(--ternary); */
-}
-
-.cert-main{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -788,7 +781,7 @@ body{
 .cert-main .cert-font{
     position: absolute;
     left: 13%;
-    top: 35%;
+    top: 38%;
     font-size: xx-large;
     color: var(--primary)
  }
@@ -809,10 +802,10 @@ body{
 }
 .contact-div{
     background-color: var(--light);
-    margin: 0;
     padding: 40px 7% 40px 7%;
     box-shadow: 0 8px 30px 30px gainsboro;
     width: 100%;
+    margin-top: 30px;
 }
 .contact{
     display: grid;
