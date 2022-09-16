@@ -136,6 +136,8 @@ body{
 }
 .menu-items{
     display: none;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
     width: 100%;
     /* padding: 0 14%; */
     background-color: var(--pure);
@@ -163,6 +165,29 @@ body{
     color: var(--primary);
     font-size: 19px;
     
+}
+.btn-div1{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.btn1{
+    width: 30%;
+    margin-left: 14%;
+    outline: none;
+    border: none;
+    background-color: var(--primary);
+    color: black;
+    padding: 12px 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: var(--dark);
+    font-size: 13px;
+    color: var(--primary);
+    transition:0.5s;
 }
 .header{
     display: grid;

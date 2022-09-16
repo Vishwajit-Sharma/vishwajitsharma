@@ -28,6 +28,7 @@ $(document).ready(
       $(".menu").click(
         function(){
           $(".menu-items").toggle("slow")
+          $(".menu-items").css("display","grid")
         }
       )
 
