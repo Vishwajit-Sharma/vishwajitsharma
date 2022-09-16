@@ -317,13 +317,13 @@
             <div class="mail"><i class="far fa-envelope con-font"></i><h4>Mail Me @</h4><p><small>vishwajit123sharma@gmail.com</small></p></div>
             <div class="social-con"><a href="#"><i class="fab fa-facebook-square con-font"></i></a>&nbsp;&nbsp;&nbsp;<a href="#"><i class="fab fa-linkedin con-font"></i></a>&nbsp;&nbsp;&nbsp;<a href="#"><i class="fab fa-instagram-square con-font"></i></a><h4>Socialize Me at</h4></div>
           </div>
-          <form action="">
+          <form method="POST" action="https://public.herotofu.com/v1/417e3e70-35c7-11ed-9de0-b73c4b901972"  onsubmit="alert('Form Submitted Successfully')">
             <div class="form">
-              <input type="text" placeholder="Your Name*" required>
-              <input type="text" placeholder="Mobile No.*" required>
-              <input type="email" placeholder="Email ID*" required>
-              <input type="text" placeholder="Subject*" required>
-              <textarea name="" id="" cols="10" rows="10" placeholder="Message"></textarea>
+              <input type="text" placeholder="Your Name*" name="name" required>
+              <input type="text" placeholder="Mobile No.*" name="mobile" required>
+              <input type="email" placeholder="Email ID*" name="mail" required>
+              <input type="text" placeholder="Subject*" name="sub" required>
+              <textarea name="msg" id="" cols="5" rows="6" placeholder="Message"></textarea>
             </div>
             <button type="submit" class="form-btn">Send Message</button>
           </form>
@@ -334,5 +334,41 @@
     
     <script src="js/index.js"></script>
     <script src="js/riples.js"></script>
+    <script>
+      var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?56208';
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url;
+      var options = {
+    "enabled":true,
+    "chatButtonSetting":{
+        "backgroundColor":"#4dc247",
+        "ctaText":"",
+        "borderRadius":"25",
+        "marginLeft":"25",
+        "marginBottom":"30",
+        "marginRight":"",
+        "position":"left"
+    },
+    "brandSetting":{
+        "brandName":"Vishwajit",
+        "brandSubTitle":"Typically replies within a day",
+        "brandImg":"https://itypessi.sirv.com/vslogo.jpg",
+        "welcomeText":"Hi there!\nHow can I help you?",
+        "messageText":"Hello, I have a question about {{page_link}}",
+        "backgroundColor":"#0a5f54",
+        "ctaText":"Start Chat",
+        "borderRadius":"25",
+        "autoShow":false,
+        "phoneNumber":"918087287984"
+    }
+  };
+      s.onload = function() {
+          CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+  </script>
 </body>
 </html>
