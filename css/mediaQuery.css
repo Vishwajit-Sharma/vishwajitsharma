@@ -1263,7 +1263,7 @@
         grid-gap: 15px;
     }
     .video-inner iframe{
-        height: 100px;
+        height: 200px;
         width: 100%;
     }
     .video-outer{
