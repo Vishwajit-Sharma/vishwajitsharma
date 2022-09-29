@@ -2,7 +2,7 @@ $(document).ready(
     function(){
 
       $(document).scroll(function(){
-        if($(document).scrollTop()>550){
+        if($(document).scrollTop()>300){
           $('#top').css({display:"flex"})
         }
         else{
@@ -23,6 +23,10 @@ $(document).ready(
           resolution: 550,
           dropRadius:10
       })
+      $(".video-outer").ripples({
+        resolution: 550,
+        dropRadius:10
+    })
 
 
       $(".menu").click(

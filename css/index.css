@@ -47,7 +47,7 @@ body{
     clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 90%, 0 100%);
     background-color: var(--dark);
     padding: 10px 2%;
-    padding-bottom: 70px;
+    padding-bottom: 125px;
     display: grid;
     /* grid-template-rows: auto; */
     grid-gap:20px;
@@ -195,15 +195,20 @@ body{
     grid-gap:15px;
 }
 .main-img{
-    padding: 40px 0;
+    padding: 0px 0;
     display: grid;
 }
-.main-img img{
-    width: 40%;
+/* .main-img img{
+    width: 80%;
+    place-self: center;
+} */
+.mainFrame{
+    width: 80%;
+    height: 70%;
     place-self: center;
 }
 .header-right{
-    padding: 40px 0;
+    padding: 0px 0;
 }
 .welcome-world{
     letter-spacing: 2px;
@@ -248,6 +253,7 @@ body{
     outline: none;
     background-color: var(--dark);
     color: var(--primary);
+    cursor: pointer;
 }
 .btn-dload:hover{
     background-color: var(--light);
@@ -284,7 +290,7 @@ body{
    
 }
 .about-me-img img{
-    width: 50%;
+    width: 80%;
     align-self: end;
     justify-self: center;
 }
@@ -295,8 +301,8 @@ body{
 .about-me-heading{
     color: var(--primary);
 }
-.about-me p{
-    padding-right: 100px;
+.about-me p, ol{
+    padding-right: 0px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 1px;
@@ -331,12 +337,12 @@ body{
     box-shadow: 0 8px 30px 30px gainsboro;
     width: 100%;
 }
-.portfolio-heading, .resume-heading, .contact-heading{
+.portfolio-heading, .resume-heading, .contact-heading, .video-heading{
     color: var(--primary);
     text-align: center;
     margin-bottom: 0;
 }
-.portfolio h2, .resume-outer h2, .contact-div h2{
+.portfolio h2, .resume-outer h2, .contact-div h2, .video-outer h2{
     text-align: center;
     margin-top: 0;
 }
@@ -349,7 +355,7 @@ body{
     row-gap: 75px;
 }
 .pf{
-    padding: 10px 20px;
+    padding: 10px 10px;
     background-color: var(--pure);
     position: relative;
     user-select: none;
@@ -364,6 +370,11 @@ body{
     position: absolute;
     left: 37%;
     top: -34px;
+}
+.sessions{
+    width: 80%;
+    margin-left: 10%;
+    height: 200px;
 }
 .pf h3{
     margin-top: 45px;
@@ -383,6 +394,10 @@ body{
     color: var(--pure);
     transition: 0.8s;
 }
+.pf:hover .sessions{
+    transform: scale(1.1,1.1);
+    transition: 600ms;
+}
 .pf:hover p{
     color: var(--pure);
     transition: 0.8s;
@@ -401,6 +416,7 @@ body{
     padding: 40px 0 100px 0;
     text-align: center;
     color: var(--pure);
+    margin-top: 30px;
 }
 .freelancer-div h1{
     font-weight: 600;
@@ -447,7 +463,7 @@ body{
     transition: 0.8s;
 }
 .resume-outer{
-    padding: 80px 80px 30px 80px;
+    padding: 40px 80px;
     background-color: var(--pure);
 }
 .resume-main{
@@ -621,13 +637,13 @@ body{
 
 @keyframes t1{
     0%{width: 0;}
-    30%{width: 85%;}
-    100%{width: 85%;}
+    30%{width: 90%;}
+    100%{width: 90%;}
 }
 @keyframes t2{
     0%{width: 0;}
-    30%{width: 75%;}
-    100%{width: 75%;}
+    30%{width: 85%;}
+    100%{width: 85%;}
 }
 @keyframes t3{
     0%{width: 0;}
@@ -636,8 +652,8 @@ body{
 }
 @keyframes t4{
     0%{width: 0;}
-    30%{width: 90%;}
-    100%{width: 90%;}
+    30%{width: 75%;}
+    100%{width: 75%;}
 }
 @keyframes t5{
     0%{width: 0;}
@@ -646,8 +662,8 @@ body{
 }
 @keyframes t6{
     0%{width: 0;}
-    30%{width: 60%;}
-    100%{width: 60%;}
+    30%{width: 90%;}
+    100%{width: 90%;}
 }
 
 .s1 {animation-name: s1;}
@@ -664,18 +680,18 @@ body{
 
 @keyframes s1{
     0%{width: 0;}
-    30%{width: 85%;}
-    100%{width: 85%;}
+    30%{width: 90%;}
+    100%{width: 90%;}
 }
 @keyframes s2{
     0%{width: 0;}
-    30%{width: 75%;}
-    100%{width: 75%;}
+    30%{width: 85%;}
+    100%{width: 85%;}
 }
 @keyframes s3{
     0%{width: 0;}
-    30%{width: 95%;}
-    100%{width: 95%;}
+    30%{width: 80%;}
+    100%{width: 80%;}
 }
 @keyframes s4{
     0%{width: 0;}
@@ -684,13 +700,13 @@ body{
 }
 @keyframes s5{
     0%{width: 0;}
-    30%{width: 65%;}
-    100%{width: 65%;}
+    30%{width: 85%;}
+    100%{width: 85%;}
 }
 @keyframes s6{
     0%{width: 0;}
-    30%{width: 60%;}
-    100%{width: 60%;}
+    30%{width: 75%;}
+    100%{width: 75%;}
 }
 .percent{
     /* visibility: hidden; */
@@ -826,11 +842,11 @@ body{
     color: var(--pure);
 }
 .contact-div{
-    background-color: var(--light);
+    /* background-color: var(--light); */
     padding: 40px 7% 40px 7%;
-    box-shadow: 0 8px 30px 30px gainsboro;
+    /* box-shadow: 0 8px 30px 30px gainsboro; */
     width: 100%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
 }
 .contact{
     display: grid;
@@ -863,6 +879,11 @@ small{
     text-decoration: none;
     color: var(--dark);
 }
+.social-con .con-font:hover{
+    color: black;
+    transform: scale(1.1,1.1);
+    /* transition: 500ms; */
+}
 .social-con h4{
     text-align: center;
     margin-top: 20px;
@@ -892,15 +913,18 @@ small{
 }
 .form input, .form textarea{
     margin: 10px;
-    padding: 10px;
+    padding: 15px;
+    /* background-color: rgba(59, 202, 207,0.1); */
+    background-color: white;
     border-radius: 5px;
     outline: none;
-    border: 1px solid var(--light);
-    box-shadow: 1px 2px 4px 1px var(--ternary);
+    border: 1px solid var(--ternary);
+    box-shadow: 1px 2px 4px 1px var(--light);
 }
 .form input:focus, .form textarea:focus{
     border: 2px solid var(--primary);
     box-shadow: 1px 2px 4px 1px var(--primary);
+    background-color: white;
 }
 .form-btn{
     width: 24%;
@@ -929,6 +953,28 @@ small{
     text-align: center;
     margin: auto;
 }
+.video-outer{
+    width: 100%;
+    background: url(../images/videobg\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+.video-outer h2{
+    color: white;
+}
+.video-inner{
+    display: grid;
+    padding: 30px 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    place-items: center;
+}
+.video-inner iframe{
+    height: 350px;
+    width: 100%;
+}
+
 
 
 
